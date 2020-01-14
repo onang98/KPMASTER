@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My KP</string>
+    <string name="title_activity_perangkat__desa__view">Perangkat_Desa_View</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

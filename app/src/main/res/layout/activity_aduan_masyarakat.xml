@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical"
+    tools:context="com.example.KP.aduan_masyarakat.aduan_masyarakat">
+    <ScrollView
+        android:layout_below="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+      android:layout_marginHorizontal="20dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+<EditText
+    android:id="@+id/et_nama"
+    android:layout_marginTop="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text"
+    android:padding="5dip"
+    android:hint="Nama"
+    android:textColorHint="@color/color_hint"/>
+    <EditText
+        android:id="@+id/et_NIK"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:padding="5dip"
+        android:hint="NIK"
+        android:textColorHint="@color/color_hint"/>
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:padding="5dip"
+        android:hint="Alamat"
+        android:textColorHint="@color/color_hint"
+        android:inputType="text|textImeMultiLine"/>
+    <EditText
+        android:id="@+id/et_telp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:padding="5dip"
+        android:hint="No Tlp"
+        android:textColorHint="@color/color_hint"/>
+    <EditText
+        android:id="@+id/et_deskripsi"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:padding="5dip"
+        android:hint="Deskripsi"
+        android:textColorHint="@color/color_hint"
+        android:inputType="text|textImeMultiLine"/>
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+        <ImageView
+            android:id="@+id/iv_adu"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text" />
+    <Button
+        android:id="@+id/btn_aduan"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Update Aduan"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@drawable/roundedbutton"/>
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Kembali"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="@drawable/roundedbutton"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+</LinearLayout>

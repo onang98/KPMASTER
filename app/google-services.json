@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523242011420",
+    "firebase_url": "https://aduan-masyarakat-87362.firebaseio.com",
+    "project_id": "aduan-masyarakat-87362",
+    "storage_bucket": "aduan-masyarakat-87362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523242011420:android:bfa5db4adba522fe2c98d9",
+        "android_client_info": {
+          "package_name": "com.example.KP.aduan_masyarakat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523242011420-r4n6f0d2ms9avfauuf9g6sjqo22fonil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.KP.aduan_masyarakat",
+            "certificate_hash": "0face68589784d4793d4738f66d278a71c5e59d2"
+          }
+        },
+        {
+          "client_id": "523242011420-uneui3v20sfckvaa2s693k1cv0i8p089.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcBuP5YdmTp6atiCVPJyt2B0JC3YinzE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523242011420-uneui3v20sfckvaa2s693k1cv0i8p089.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

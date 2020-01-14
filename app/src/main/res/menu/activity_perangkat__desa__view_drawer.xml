@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pendidikan"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Pendidikan" />
+        <item
+            android:id="@+id/nav_keamanan"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="keamanan" />
+        <item
+            android:id="@+id/nav_sosial"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="Sosial" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Keluar" />
+
+    </group>
+</menu>
